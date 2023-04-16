@@ -1,0 +1,8 @@
+.card img{
+    grid-row-end: span 2;
+    
+}
+.card {
+    align-items:center;
+    font-size: 1.5em;
+}
