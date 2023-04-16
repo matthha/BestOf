@@ -22,6 +22,16 @@ const showFav = () => {
         tt.appendChild(d)
         d.textContent="You have not selected a favorite game yet. Go to 'Games' to choose a favorite!"
       }
-      console.log('Out of loop.')
+
 }
+window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);
 showFav()
