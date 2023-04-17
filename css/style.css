@@ -24,13 +24,13 @@ body nav .current{
 }
 .info{
     font-size: 2em;
+    border-radius: 1em;
+    padding:0.5em;
     background-color: rgba(0, 0, 0, 0.284);
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
 }
-body{
-    height: 3000px;
-}
+
 .top{
     display:grid;
     grid-template-columns: 1fr;
@@ -153,6 +153,7 @@ button{
     
 }
 .skipper{
+    color:white;
     position:absolute;
     left: -1000px;
 }
